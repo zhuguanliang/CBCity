@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFB1D06E264EE3D800169641 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB1D06D264EE3D800169641 /* LaunchScreen.png */; };
 		CFC953542645468300A052B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC953532645468300A052B8 /* AppDelegate.swift */; };
 		CFC953562645468300A052B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC953552645468300A052B8 /* SceneDelegate.swift */; };
 		CFC953582645468300A052B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC953572645468300A052B8 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CFB1D06D264EE3D800169641 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
 		CFC953502645468300A052B8 /* CBCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC953532645468300A052B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFC953552645468300A052B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				CFC953572645468300A052B8 /* ViewController.swift */,
 				CFC953592645468300A052B8 /* Main.storyboard */,
 				CFC9535C2645468800A052B8 /* Assets.xcassets */,
+				CFB1D06D264EE3D800169641 /* LaunchScreen.png */,
 				CFC9535E2645468800A052B8 /* LaunchScreen.storyboard */,
 				CFC953612645468800A052B8 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC953602645468800A052B8 /* LaunchScreen.storyboard in Resources */,
+				CFB1D06E264EE3D800169641 /* LaunchScreen.png in Resources */,
 				CFC9535D2645468800A052B8 /* Assets.xcassets in Resources */,
 				CFC9535B2645468300A052B8 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H75V4RTPPG;
 				INFOPLIST_FILE = CBCity/Info.plist;
@@ -297,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhugeliang.CBCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H75V4RTPPG;
 				INFOPLIST_FILE = CBCity/Info.plist;
@@ -317,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhugeliang.CBCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
